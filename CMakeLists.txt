@@ -19,7 +19,7 @@ ENDIF(NOT CMAKE_BUILD_TYPE)
 # postfix, based on type
 SET(CMAKE_DEBUG_POSTFIX "_d" CACHE STRING "postfix applied to debug build of libraries")
 SET(CMAKE_RELEASE_POSTFIX "" CACHE STRING "postfix applied to release build of libraries")
-SET(CMAKE_RELWITHDEBINFO_POSTFIX "_rd" CACHE STRING "postfix applied to release-with-debug-information libraries")
+SET(CMAKE_RELWITHDEBINFO_POSTFIX "" CACHE STRING "postfix applied to release-with-debug-information libraries")
 SET(CMAKE_MINSIZEREL_POSTFIX "_s" CACHE STRING "postfix applied to minimium-size-build libraries")
 
 # work out the postfix; required where we use OUTPUT_NAME
